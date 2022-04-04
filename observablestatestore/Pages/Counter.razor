@@ -1,4 +1,7 @@
-﻿@page "/counter"
+﻿@using ObservableStateStore.StateStores
+@using System.Reactive;
+
+@page "/counter"
 
 <PageTitle>Counter</PageTitle>
 
@@ -8,11 +11,29 @@
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
-@code {
-    private int currentCount = 0;
+@inject CounterStateStore counterStateStore;
 
+@code {
+    public int currentCount;
+    private IDisposable? subscription;
+
+    protected override void OnInitialized()
+    {
+        this.subscription = this.counterStateStore.Value
+          .Subscribe((state) => 
+          {
+              currentCount = state.counter;
+              Console.WriteLine("On Inititalize");
+          });
+    }
     private void IncrementCount()
     {
-        currentCount++;
+        counterStateStore.Increment();
+         Console.WriteLine("On Increment");
+    }
+
+    public void Dispose()
+    {
+        subscription?.Dispose();        
     }
 }

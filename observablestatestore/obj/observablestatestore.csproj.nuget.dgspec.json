@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/erikvanappeldoorn/Projects/IKOMM/Observable State Store Blazor WASM/observablestatestore/observablestatestore.csproj": {}
+    "/Users/erikvanappeldoorn/Projects/IKOMM/Observable-State-Store-Blazor_WASM/observablestatestore/observablestatestore.csproj": {}
   },
   "projects": {
-    "/Users/erikvanappeldoorn/Projects/IKOMM/Observable State Store Blazor WASM/observablestatestore/observablestatestore.csproj": {
+    "/Users/erikvanappeldoorn/Projects/IKOMM/Observable-State-Store-Blazor_WASM/observablestatestore/observablestatestore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/erikvanappeldoorn/Projects/IKOMM/Observable State Store Blazor WASM/observablestatestore/observablestatestore.csproj",
+        "projectUniqueName": "/Users/erikvanappeldoorn/Projects/IKOMM/Observable-State-Store-Blazor_WASM/observablestatestore/observablestatestore.csproj",
         "projectName": "observablestatestore",
-        "projectPath": "/Users/erikvanappeldoorn/Projects/IKOMM/Observable State Store Blazor WASM/observablestatestore/observablestatestore.csproj",
+        "projectPath": "/Users/erikvanappeldoorn/Projects/IKOMM/Observable-State-Store-Blazor_WASM/observablestatestore/observablestatestore.csproj",
         "packagesPath": "/Users/erikvanappeldoorn/.nuget/packages/",
-        "outputPath": "/Users/erikvanappeldoorn/Projects/IKOMM/Observable State Store Blazor WASM/observablestatestore/obj/",
+        "outputPath": "/Users/erikvanappeldoorn/Projects/IKOMM/Observable-State-Store-Blazor_WASM/observablestatestore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/erikvanappeldoorn/.nuget/NuGet/NuGet.Config"
@@ -46,6 +46,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.2, )"
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [

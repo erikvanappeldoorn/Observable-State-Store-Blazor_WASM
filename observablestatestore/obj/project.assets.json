@@ -342,6 +342,18 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
+        }
+      },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
@@ -731,6 +743,18 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -1432,6 +1456,35 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "System.Reactive/5.0.0": {
+      "sha512": "erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ==",
+      "type": "package",
+      "path": "system.reactive/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net5.0/_._",
+        "build/netcoreapp3.1/System.Reactive.dll",
+        "build/netcoreapp3.1/System.Reactive.targets",
+        "build/netcoreapp3.1/System.Reactive.xml",
+        "buildTransitive/net5.0/_._",
+        "buildTransitive/netcoreapp3.1/System.Reactive.targets",
+        "lib/net472/System.Reactive.dll",
+        "lib/net472/System.Reactive.xml",
+        "lib/net5.0-windows10.0.19041/System.Reactive.dll",
+        "lib/net5.0-windows10.0.19041/System.Reactive.xml",
+        "lib/net5.0/System.Reactive.dll",
+        "lib/net5.0/System.Reactive.xml",
+        "lib/netcoreapp3.1/_._",
+        "lib/netstandard2.0/System.Reactive.dll",
+        "lib/netstandard2.0/System.Reactive.xml",
+        "lib/uap10.0.16299/System.Reactive.dll",
+        "lib/uap10.0.16299/System.Reactive.pri",
+        "lib/uap10.0.16299/System.Reactive.xml",
+        "system.reactive.5.0.0.nupkg.sha512",
+        "system.reactive.nuspec"
+      ]
+    },
     "System.Runtime.CompilerServices.Unsafe/6.0.0": {
       "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
       "type": "package",
@@ -1542,7 +1595,8 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.2",
-      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.2"
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.2",
+      "System.Reactive >= 5.0.0"
     ]
   },
   "packageFolders": {
@@ -1551,11 +1605,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/erikvanappeldoorn/Projects/IKOMM/Observable State Store Blazor WASM/observablestatestore/observablestatestore.csproj",
+      "projectUniqueName": "/Users/erikvanappeldoorn/Projects/IKOMM/Observable-State-Store-Blazor_WASM/observablestatestore/observablestatestore.csproj",
       "projectName": "observablestatestore",
-      "projectPath": "/Users/erikvanappeldoorn/Projects/IKOMM/Observable State Store Blazor WASM/observablestatestore/observablestatestore.csproj",
+      "projectPath": "/Users/erikvanappeldoorn/Projects/IKOMM/Observable-State-Store-Blazor_WASM/observablestatestore/observablestatestore.csproj",
       "packagesPath": "/Users/erikvanappeldoorn/.nuget/packages/",
-      "outputPath": "/Users/erikvanappeldoorn/Projects/IKOMM/Observable State Store Blazor WASM/observablestatestore/obj/",
+      "outputPath": "/Users/erikvanappeldoorn/Projects/IKOMM/Observable-State-Store-Blazor_WASM/observablestatestore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/erikvanappeldoorn/.nuget/NuGet/NuGet.Config"
@@ -1590,6 +1644,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.2, )"
+          },
+          "System.Reactive": {
+            "target": "Package",
+            "version": "[5.0.0, )"
           }
         },
         "imports": [

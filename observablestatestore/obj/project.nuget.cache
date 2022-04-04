@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GnCUQXEkl3HWzAr5Wh92gViQRTFX+mzIY0XIYsEBT0cosE6QaKG0e3HcvvoJwVl8QVm5rhMXBVzRz4MzBvBOlw==",
+  "dgSpecHash": "JrA5YwmuqFlyqtbA9YR6ArY+gCVMvpGkeprvAlMee0+mDSuSvBSxlwrFQHWPowdI1zQ63iV4W/5yNUgzapj7YA==",
   "success": true,
-  "projectFilePath": "/Users/erikvanappeldoorn/Projects/IKOMM/Observable State Store Blazor WASM/observablestatestore/observablestatestore.csproj",
+  "projectFilePath": "/Users/erikvanappeldoorn/Projects/IKOMM/Observable-State-Store-Blazor_WASM/observablestatestore/observablestatestore.csproj",
   "expectedPackageFiles": [
     "/Users/erikvanappeldoorn/.nuget/packages/microsoft.aspnetcore.authorization/6.0.2/microsoft.aspnetcore.authorization.6.0.2.nupkg.sha512",
     "/Users/erikvanappeldoorn/.nuget/packages/microsoft.aspnetcore.components/6.0.2/microsoft.aspnetcore.components.6.0.2.nupkg.sha512",
@@ -30,6 +30,7 @@
     "/Users/erikvanappeldoorn/.nuget/packages/microsoft.jsinterop.webassembly/6.0.2/microsoft.jsinterop.webassembly.6.0.2.nupkg.sha512",
     "/Users/erikvanappeldoorn/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "/Users/erikvanappeldoorn/.nuget/packages/system.io.pipelines/6.0.2/system.io.pipelines.6.0.2.nupkg.sha512",
+    "/Users/erikvanappeldoorn/.nuget/packages/system.reactive/5.0.0/system.reactive.5.0.0.nupkg.sha512",
     "/Users/erikvanappeldoorn/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/Users/erikvanappeldoorn/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
     "/Users/erikvanappeldoorn/.nuget/packages/system.text.json/6.0.0/system.text.json.6.0.0.nupkg.sha512",
